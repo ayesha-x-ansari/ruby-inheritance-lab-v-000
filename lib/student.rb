@@ -13,3 +13,7 @@ attr_accessor :knowledge
     @knowledge
   end
 end
+
+student = Student.new
+student.learn("Javascript Embe Elixir knowledge")
+puts student.knowledge
